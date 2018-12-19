@@ -1,0 +1,246 @@
+/* homepage */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.homepage
+{
+	background-image: url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.navigation-menu
+{
+	float: right;
+	list-style: none;
+	margin-top: 35px;
+	text-align: center;
+	margin-right: 35px;
+
+}
+
+.navigation-menu li
+{
+	display: inline-block;
+}
+
+.navigation-menu a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", "sans-serif";
+	font-size: 20px;
+
+}
+
+.navigation-menu li a
+{
+	border: 1px solid white;
+}
+
+.navigation-menu li a:hover
+{
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+}
+
+body
+{
+	font-family: "Verdana": 
+}
+
+.title
+{
+	float: left;
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 20px;
+	color: white;
+}
+
+.image_menues
+{
+	display:none;
+}
+
+.one
+{
+	margin-top: 15px;
+}
+.two
+{
+	margin-top: 15px;
+}
+.three
+{
+	margin-top: 15px;
+}
+
+.dropdown:hover .image_menues
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+/* about */
+
+.aboutpage
+{
+	background-image: url(about.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.aboutme_title
+{
+	z-index: 100;
+	color: white;
+	font-family: "Verdana";
+	font-size: 40px;
+	text-align: center;
+	margin-top: 80px;
+	padding: 10px;
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+	opacity: 0.7;
+	position: absolute;
+
+}
+
+.aboutme_text
+{
+	z-index: 100;
+	color: white;
+	font-family: "Verdana";
+	font-size: 20px;
+	text-align: left;
+	margin-top: 300px;
+	margin-right: 20px;
+	padding: 10px;
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+	opacity: 0.7;
+	position: absolute;
+}
+
+/* contact */
+
+.contactpage
+{
+	background-image: url(contact.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.contactme_title
+{
+	z-index: 100;
+	color: white;
+	font-family: "Verdana";
+	font-size: 40px;
+	text-align: center;
+	margin-top: 80px;
+	padding: 10px;
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+	opacity: 0.7;
+	position: absolute;
+
+}
+
+.contactme_text
+{
+	z-index: 100;
+	color: white;
+	font-family: "Verdana";
+	list-style: none;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 300px;
+	padding: 10px;
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+	opacity: 0.7;
+	position: absolute;
+}
+
+/* photos */
+.photopage
+{
+	background-image: url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/* photo one*/
+
+.photoone
+{
+	background-image: url(photo_background.jpg);
+	height: 100vh;
+	background-size: cover;
+
+}
+.photo_text
+{
+	z-index: 100;
+	color: white;
+	font-family: "Verdana";
+	font-size: 15px;
+	margin-top: 150px;	
+	margin-left: 350px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+	position: absolute;
+
+}
+/* resume */
+
+.resumepage
+{
+	background-image: url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.resume_text
+{
+	z-index: 100;
+	color: white;
+	font-family: "Verdana";
+	font-size: 15px;
+	margin-top: 150px;	
+	margin-left: 100px;
+	margin-right:100px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #FFFF00;
+	background-color: #042F71;
+	position: absolute;
+	opacity: 0.9;
+
+}
+
+.resume {
+  max-width:25%;
+  max-height:25%;
+}
+
+
+
+
+
